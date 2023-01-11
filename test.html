@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="text_on_foto">
+            <h2 class="txtmn">ООО "РН-БУРЕНИЕ"</h2>
+            <H4>Портал для тестирования сотрудников</H4>
+        </div>
+        <div class="logo">
+            <img class="log" src="jpg/rosneft-logo-PhotoRoom_png-PhotoRoom.png" alt="logo">
+        </div>
+      <div class="foto">
+        <img class="foto_card" src="jpg/6(7).jpg" alt="foto">
+      </div>
+      
+      <div class="filial">
+        <a href="#popup" class="filial_test">Итоговое тестирование</a>
+        
+      </div>
+      <div id="popup" class="popup">
+        <a href="#" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <h3 class="tst">Заполните данные</h3>
+                <div class="testi">
+                    
+                    <form action="опрос10/opros.html" class="form" method="POST" enctype="multipart/form-data">
+                        <label class="form__label">
+                          <input class="input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Введите ваше фио" required>
+                        </label>
+                        <label class="form__label">
+                          <input class="input input-position" type="position" data-validate-field="position" name="position"
+                            placeholder="Введите вашу должность" required>
+                        </label>
+                        <label class="form__label">
+                          <input class="input input-name" type="name" data-validate-field="name" name="name second"
+                            placeholder="Введите фио принимающего" required>
+                        </label>
+                       
+                        <button  class="button">перейти к тесту</button>
+                      </form>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
